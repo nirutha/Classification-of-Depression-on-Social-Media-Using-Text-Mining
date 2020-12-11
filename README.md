@@ -16,9 +16,9 @@
 
 
 ### Requirements:
-    - Python 3.6.1 or Higher
-    - Twitter developer account
-    - A bunch of modules (Keras, TF, Numpy, Sklearn, Pandas, Itertools)
+ - Python 3.6.1 or Higher
+ - Twitter developer account
+ - A bunch of modules (Keras, TF, Numpy, Sklearn, Pandas, Itertools)
     
 
 
