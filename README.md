@@ -1,16 +1,3 @@
----
-jupyter:
-  jupytext:
-    text_representation:
-      extension: .md
-      format_name: markdown
-      format_version: '1.2'
-      jupytext_version: 1.7.1
-  kernelspec:
-    display_name: Python 3
-    language: python
-    name: python3
----
 
 # Impact of pandemic on mental health using twitter data
 
@@ -29,9 +16,9 @@ jupyter:
 
 
 ### Requirements:
-    * Python 3.6.1 or Higher
-    * Twitter developer account
-    * A bunch of modules (Keras, TF, Numpy, Sklearn, Pandas, Itertools)
+    - Python 3.6.1 or Higher
+    - Twitter developer account
+    - A bunch of modules (Keras, TF, Numpy, Sklearn, Pandas, Itertools)
     
 
 
@@ -48,14 +35,14 @@ jupyter:
 
 
 ### Steps:
-    * Create a twitter developer account and get token values for accessing the twitter API.
-    * Import the required modules to create the environment.
-    * Run data collection function in Depression_sentiment_analysis.ipynb to obtain the tweets data.
-    * Run pre-processing step to remove url, punctuations, stop words and tokenize the words with lemmatization and stemming.
-    * Run the sentiment analysis step to classify the data into positive, negative and neutral tweets based on the depression dictionary called dictionary.tsv
-    * Run the classification modeling step to predict the tweet data as depressed or non-depressed using Naive-bayes, logistic regression, Decision tree, random forest, svm and neural network classifiers. 
-    * Run the evaluation step containing evaluateMyModels() function to analyze the performance metrics of each classifiers.
-    * Run the Clustering.ipynb script for performing k-means clustering on the processed data with visualization of the clusters. 
+    - Create a twitter developer account and get token values for accessing the twitter API.
+    - Import the required modules to create the environment.
+    - Run data collection function in Depression_sentiment_analysis.ipynb to obtain the tweets data.
+    - Run pre-processing step to remove url, punctuations, stop words and tokenize the words with lemmatization and stemming.
+    - Run the sentiment analysis step to classify the data into positive, negative and neutral tweets based on the depression dictionary called dictionary.tsv
+    - Run the classification modeling step to predict the tweet data as depressed or non-depressed using Naive-bayes, logistic regression, Decision tree, random forest, svm and neural network classifiers. 
+    - Run the evaluation step containing evaluateMyModels() function to analyze the performance metrics of each classifiers.
+    - Run the Clustering.ipynb script for performing k-means clustering on the processed data with visualization of the clusters. 
     
 
 
